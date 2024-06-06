@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/Register.css">
+    <link href="/website/css/uicons-outline-rounded.css">
+    <title>Sign up</title>
+
+
+</head>
+
+<body class="bg-neutral-800">
+    <div
+        class=" bg-zinc-700/50 w-[100vh]  h-[80vh]   ml-96 mt-20 rounded-3xl border border-emerald-300 hover:border-emerald-600  ">
+
+        <div class=" ">
+            <p class="text-4xl text-emerald-300 pl-80 pt-6">Sign up</p>
+        </div>
+        <form action="">
+            <div class=" mt-12">
+
+                <div class="inline-grid h-[50vh]  w-[50vh]    border-dashed border-r-2 border-x-zinc-400   pl-12">
+                    <div>
+                        <div class="inline-grid ">
+                            <label for="fname" class="p-2 text-base text-gray-200">First name :</label>
+                            <input type="text" id="fname" name="fname" placeholder="Michael"
+                                class="pl-5 rounded-full h-8 px-12  bg-transparent border-2 border-gray-300  text-emerald-200/75">
+
+                            <label for="lname" class="p-2 text-base text-gray-200">Last name :</label>
+                            <input type="text" id="lname" name="lname" placeholder="Scofield"
+                                class="pl-5 rounded-full h-8 px-12  bg-transparent border-2 border-gray-300  text-emerald-200/75">
+
+                            <label for="age" class="p-2 text-base text-gray-200">Age :</label>
+                            <input type="number" id="age" name="age" min="18" max="100" value="20"
+                                class="pl-5 rounded-full h-8  px-12 bg-transparent border-2 border-gray-300  text-emerald-200/75">
+                            <label for="email" class="p-2 text-base text-gray-200">Enter your email :</label>
+                            <input type="email" id="email" name="email" placeholder="exam@gmail.com"
+                                class="pl-5 rounded-full h-8 px-12 bg-transparent border-2 border-gray-300  text-emerald-200/75">
+                            <label for="email" class="p-2 text-base text-gray-200">gender :</label>
+                            <select name="gender" id="gender"
+                                class="pl-5 rounded-full h-8  px-12 bg-transparent border-2 border-gray-300  text-emerald-300 ">
+                                <option value="Man">Man</option>
+                                <option value="Female">Female</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="inline-grid h-[60vh]  w-[49vh] pl-16  ">
+                    <div> <label for="" class="p-2 text-xl text-gray-200">What do you know ?</label><br><br>
+                          <input type="checkbox" id="html" name="html" value="HTML">
+                          <label for="html" class="p-4 text-base text-gray-200">HTML</label><br>
+
+                          <input type="checkbox" id="css" name="css" value="CSS">
+                          <label for="css" class="p-4 text-base text-gray-200">CSS</label><br>
+
+                          <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+                          <label for="javascript" class="p-4 text-base text-gray-200">JavaScript</label><br>
+
+                          <input type="checkbox" id="tailwind" name="fav_language" value="tailwind">
+                          <label for="tailwind" class="p-4 text-base text-gray-200">tailwind</label><br>
+
+                          <input type="checkbox" id="Scurity" name="fav_language" value="Scurity">
+                          <label for="Scurity" class="p-4 text-base text-gray-200">Scurity</label><br>
+                         
+                        <div>
+
+                            <label for="" class="p-2 text-xl text-gray-200">Work Experience</label><br><br>
+                              <input type="radio" id="0-3" name="Experience" value="0-3">
+                              <label for="0-3" class="p-4 text-base text-gray-200">0 to 3 years</label><br>
+                              <input type="radio" id="3-5" name="Experience" value="3-5">
+                              <label for="3-5" class="p-4 text-base text-gray-200">3 to 5 years</label><br>
+                              <input type="radio" id="5" name="Experience" value="5">
+                              <label for="5" class="p-4 text-base text-gray-200">more than 5
+                                years</label><br><br><br><br>
+
+                            <input type="submit" value="Submit"
+                                class="w-32 h-12 bg-emerald-600  -ml-32 mt-4   inline-grid rounded-2xl text-slate-100 hover:bg-neutral-500 active:hover:bg-neutral-400 focus:outline-none focus:ring focus:ring-emerald-300">
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
